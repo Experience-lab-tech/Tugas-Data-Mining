@@ -21,7 +21,6 @@ print("Data teks: review")
 print("Data numerikal: rating, thumbs_up")
 print("Data temporal: date")
 
-# 3. Menghitung null
 print("\n=== JUMLAH NULL ===")
 print(df.isnull().sum())
 
@@ -107,5 +106,3 @@ print("Tanggal tidak valid:", tanggal.isnull().sum())
 
 print("\n=== FREKUENSI VERSION ===")
 print(df["version"].value_counts(dropna=False).head(15))
-
-@ceperlan
